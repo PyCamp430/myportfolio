@@ -1,0 +1,71 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("./images/paper-flower.webp"); background-repeat: no-repeat; background-size: cover;
+}
+
+nav {
+    background-color: sienna;
+}
+
+.home {
+    color:wheat; padding: 15px; font-size: 20px; text-decoration: none;
+}
+
+.home:hover {
+    color:black;
+}
+
+header {
+    text-align: center; padding-top: 200px; padding-bottom: 200px;
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif; font-size: 50px; color:sienna;
+}
+
+.headtext {
+    font-size: 20px; font-style: italic; color: sienna;
+}
+
+h2 {
+    color: sienna; font-family:'Times New Roman', Times, serif; text-align: center;
+}
+
+.col {
+    padding: 20px;
+}
+
+.cardone:hover {
+    transform: scale(1.1);
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+.cardone {
+    box-shadow: 0px 5px 25px -5px black; background-color: rgb(218, 182, 182)
+}
+
+.cardone .btn {
+    background-color:#555; outline: none; color: whitesmoke;
+}
+
+.cardone .btn:hover {
+    background-color: black;
+}
+
+.btn {
+    margin-top: 5px;
+}
+
+footer {
+    background-color: sienna; color: wheat; font-style: italic; font-size: 20px; padding: 20px; margin: 10px;
+}
+
+#contact {
+    padding-left: 20px;
+}
