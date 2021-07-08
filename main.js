@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
         var myvideo = document.getElementById("myvideo");
         var videobtn = document.getElementById("videobtn");
         // play video
-        if(videobtn.innerText == "Watch Video"){
+        if(videobtn.innerText == "Play Video"){
             videobtn.innerText = "Hide Video";
             document.getElementById("deskimage").style.display = "none";
             myvideo.style.display = "block";
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function(){
             myvideo.pause();
             myvideo.style.display = "none";
             document.getElementById("deskimage").style.display = "block";
-            videobtn.innerText = "Watch Video";
+            videobtn.innerText = "Play Video";
         }
     }
 })
