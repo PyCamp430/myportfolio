@@ -4,6 +4,14 @@ html {
 
 body {
     background-image: url("./images/paper-flower.webp"); background-repeat: no-repeat; background-size: cover;
+    background-attachment: fixed;
+}
+
+/* for desktop screen */
+@media only screen and (min-width: 768px) {
+    body {
+        background-attachment:scroll;
+    }
 }
 
 nav {
@@ -55,7 +63,7 @@ img:hover {
 }
 
 .cardone .btn {
-    background-color:#555; outline: none; color: whitesmoke; margin-top: 5px;
+    background-color:#444; outline: none; color: whitesmoke; margin-top: 5px;
 }
 
 .cardone .btn:hover {
