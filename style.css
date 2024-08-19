@@ -27,19 +27,16 @@ nav {
 }
 
 header {
-    text-align: center; padding-top: 200px; padding-bottom: 200px;
-}
-
-h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif; font-size: 50px; color:sienna;
-}
-
-.headtext {
-    font-size: 20px; font-style: italic; color: sienna;
+    display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column; height: 100vh;
+    font-style: italic; color: sienna; font-size: 1.2rem
 }
 
 h2 {
     color: sienna; font-family:'Times New Roman', Times, serif; text-align: center;
+}
+
+video {
+    display: none;
 }
 
 .allcards {
@@ -152,4 +149,8 @@ input:checked + .slider:before {
 
 .darkmode .cardone .btn:hover {
     background-color: black;
+}
+
+svg {
+    cursor: pointer;
 }
